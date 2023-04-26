@@ -11,8 +11,6 @@ class Solution(object):
         reversed_s = s[::-1]
         reversed_s = reversed_s.replace(" ", "")
         reversed_lower = reversed_s.lower()
-        print(s_lower)
-        print(reversed_lower)
 
         if s_lower == reversed_lower:
             return True
