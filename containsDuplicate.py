@@ -11,3 +11,10 @@ class Solution(object):
             else:
                 self.check.add(number)
         return False
+
+# Explanation
+# I started off first by creating a new set 
+# Then I made a for loop that loops over each number in nums
+# If the number was found in the set that I created (meaning it was added previously in the for loop), we return True 
+# If the number was not found, we add it to the set
+# If no number is found twice, we return False
