@@ -21,3 +21,10 @@ class Solution(object):
         
         if dict_s == dict_t:
             return True
+
+# Explanation
+# If the length of both strings are different, they cannot be an anagram
+# Initialize two different dictionaries
+# For each char in the string s, if that char is already in dict_s, we increment it by one, otherwise we assign it the value of 1
+# Repeat same steps for string t
+# If both dictionaries are equivalent, return TRUE
