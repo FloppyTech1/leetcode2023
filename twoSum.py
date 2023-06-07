@@ -12,3 +12,9 @@ class Solution(object):
                         indicesList.append(i)
                         indicesList.append(j)
                         return indicesList
+     
+# Explanation
+# Initialize a new list
+# Nested loop so all numbers can be added to each other
+# If statement so that we cannot the same index to itself
+# If both indexes equal the target number, append both to the list and return the list
