@@ -16,3 +16,11 @@ class Solution(object):
             return True
         else:
             return False
+  
+# Explanation
+# Remove all spaces and punctuation characters from the string
+# Convert the string to lowercase
+# Create a new string reversed which is the reverse of the original string s
+# Remove all spaces from the reversed string
+# Convert the reversed string to lowercase
+# Check if both strings are equal, return true if true, otherwise return false
