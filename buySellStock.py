@@ -15,3 +15,11 @@ class Solution(object):
                 if result > maxProfit:
                     maxProfit = result
         return maxProfit
+ 
+# Explanation
+# Intialize two variables to store maxProfit and result
+# Set minPrice to be a float
+# Loop over prices
+# If a new minPrice is found, reassign minPrice
+# Otherwise, calculate result and check if it is larger than the current maxProfit
+# Return maxProfit
