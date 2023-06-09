@@ -20,6 +20,7 @@ int maxProfit(int* prices, int pricesSize){
     return max;
 }
 
+// Explanation
 // Initialize a max, result and min variable
 // Loop over the array
 // If the current price is less than the minimum, update min
