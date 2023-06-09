@@ -14,3 +14,12 @@ class Solution(object):
             else: 
                 end = mid - 1
         return -1
+
+# Explanation
+# Initialize a start and end variable
+# Loop while start is less than or equal to end
+# Calculate the middle 
+# If the mid is equal to target, return mid
+# If it is less than target, reassign start to mid + 1
+# Otherwise, assign end to mid - 1
+# Return - 1
