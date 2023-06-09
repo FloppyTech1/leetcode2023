@@ -23,3 +23,12 @@ class Solution(object):
             return True
         else:
             return False
+
+# Explanation
+# Initialize a list
+# Loop over the string
+# If the current char is an open parentheses, append it to the list
+# If the current char is a closed parantheses, and the list is not empty, and the last parentheses in the stack is a closed one, pop it
+# Else return false
+# Check if stringStack is empty
+# Return True or False
