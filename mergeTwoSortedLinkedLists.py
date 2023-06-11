@@ -20,10 +20,10 @@ class Solution(object):
         
 # Explanation
 # Initialize two references to a new ListNode (temp is used so we can easily point to the head of the linked list once we are done merging, current is used to iterate
-through both lists)
+# through both lists)
 # Note to self: curr is used to iterate through the list, since it eventually ends by being at say the number 15, we can't return it since it's not the head so we use
-temp to easily point to the head (first element) of the linked list
+# temp to easily point to the head (first element) of the linked list
 # While both lists aren't empty, if the value of l1 is less then the value of l2 (same index in both lists), append l1 to the new list node and do the opposite if l2
-is greater than l1. 
+# is greater than l1. 
 # Then we move current to the next node in the list (so we can fill it in the next iteration)
 # Finally, after the loop is completed, one of the lists will still have remaining nodes, so we add the rest by assigning current to l1 or l2 
