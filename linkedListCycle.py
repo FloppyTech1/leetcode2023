@@ -15,7 +15,7 @@ class Solution(object):
       
 # Explanation
 # I defined one slow pointer and one fast pointer
-# While both pointers we're not null, slow is initialized to the next element and fast is initialized to two elements ahead.
+# While both fast and the next element of fast is not null, slow is initialized to the next element and fast is initialized to two elements ahead.
 # If they are equal to each other we return true, if not we return False.
 # Example: 3->2->0->-4->(goes to 2)
 # Slow and Fast start at 3
