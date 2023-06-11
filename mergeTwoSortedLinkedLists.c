@@ -27,6 +27,7 @@ struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
 // Loop while both lists are not empty
 // If list1 value is less than list2 value, append the value of list1 and move to the next element of list1
 // Same as list1 but for list2
+// All values are being appended to the ListNode dummy, so current points at dummy and then moves forward in dummy and appends inside of dummy
 // Advance pointer to the next position in the list
 // Add the remaining nodes of either list 1 or 2
 // Return dummy.next
