@@ -18,4 +18,4 @@ class Solution(object):
 # Start with a base case to check if the tree/root/node is empty (can't have a path or extend it if it's empty)
 # Recursively calculate the depth of the left side
 # Recursively calculate the depth of the right side
-# Compare the two to see which is larger and return the answer (+1 is to include the current node)
+# Compare the two to see which is larger and return the answer (+1 is to include the root node)
