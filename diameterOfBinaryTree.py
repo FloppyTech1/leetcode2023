@@ -26,7 +26,7 @@ class Solution(object):
 # Explanation
 # Helper function to get depth (explained in previous code)
 # Base case if root is empty return 0
-# Recursively calculate the left and right subtrees
+# Recursively calculate the diameter of the left and right subtrees
 # Diameter is intialized to be the sum of the depth of the left and right subtrees
 # Diameter is equal to the max num of the 3 numbers calculated
 # Return diameter
